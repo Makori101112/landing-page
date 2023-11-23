@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial Rounded MT", Arial, sans-serif;
+}
+
+/* CSS syntax for section 1 */
+.section-1 {
+  background-color: #1f2937;
+  color: #ffff;
+}
+
+a, 
+ul {
+  text-decoration: none;
+  list-style: none;
+  color: #ffff;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 120px 50px 120px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  font-weight: lighter;
+  gap: 20px;
+}
+
+.jumbotron-1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 120px 50px 120px;
+}
+
+#headline-1, 
+#subtext-1 {
+  padding-bottom: 25px;
+}
+
+#headline-1 {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+#subtext-1 {
+  font-size: medium;
+  font-weight: lighter;
+}
+
+#button-1 {
+  padding: 15px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: #3882f6;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: none !important;
+}
