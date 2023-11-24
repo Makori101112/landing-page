@@ -8,14 +8,20 @@
 /* CSS syntax for section 1 */
 .section-1 {
   background-color: #1f2937;
-  color: #ffff;
 }
 
 a, 
-ul {
+li {
   text-decoration: none;
   list-style: none;
-  color: #ffff;
+}
+
+a {
+  color: #f9faf8;
+}
+
+li {
+  color: #e5e7eb;
 }
 
 nav {
@@ -26,14 +32,14 @@ nav {
 }
 
 .logo {
-  font-size: 30px;
+  font-size: 24px;
   font-weight: bolder;
 }
 
 .nav-links {
   display: flex;
   align-items: center;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: lighter;
   gap: 20px;
 }
@@ -43,6 +49,15 @@ nav {
   justify-content: space-around;
   align-items: center;
   padding: 20px 120px 50px 120px;
+  gap: 30px;
+}
+
+.image-1 {
+  border-radius: 5px;
+  width: 550px;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
 }
 
 #headline-1, 
@@ -53,11 +68,14 @@ nav {
 #headline-1 {
   font-size: xx-large;
   font-weight: bolder;
+  color: #f9faf8;
+  font-size: 40px;
 }
 
 #subtext-1 {
-  font-size: medium;
   font-weight: lighter;
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 #button-1 {
@@ -66,8 +84,44 @@ nav {
   width: 150px;
   border-radius: 10px;
   background-color: #3882f6;
-  color: #ffff;
+  color: #e5e7eb;
   font-size: 15px;
   font-weight: 600;
   box-shadow: none !important;
+}
+
+/* CSS Syntax for Section 2 */
+.jumbotron-2, 
+.headline-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.jumbotron-2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 25px;
+}
+
+.headline-2 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.jumbotron-2 h4 {
+  text-align: center;
+  padding: 10px;
+  color: #1f2937;
+  font-size: 18px;
+}
+
+.image-2 {
+  width: 250px;
+  height: 250px;
+  border-radius: 5px;
 }
