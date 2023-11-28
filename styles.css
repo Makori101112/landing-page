@@ -38,10 +38,9 @@ nav {
 
 .nav-links {
   display: flex;
-  align-items: center;
   font-size: 18px;
   font-weight: lighter;
-  gap: 20px;
+  gap: 50px;
 }
 
 .jumbotron-1{
@@ -53,7 +52,6 @@ nav {
 }
 
 .image-1 {
-  /* border-radius: 5px; */
   width: 550px;
   height: auto;
 }
@@ -90,7 +88,6 @@ nav {
 }
 
 /* CSS Syntax for Section 2 */
-
 .jumbotron-2, 
 .headline-2 {
   display: flex;
@@ -108,13 +105,13 @@ nav {
 .headline-2 {
   padding-top: 50px;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bolder;
   color: #1f2937;
   text-align: center;
 }
 
-.jumbotron-2 h4 {
+.jumbotron-2 h3 {
   text-align: center;
   padding: 10px;
   color: #1f2937;
@@ -125,4 +122,81 @@ nav {
   width: 250px;
   height: 250px;
   border-radius: 5px;
+}
+
+/* CSS Syntax for section 3 */
+.jumbotron-3 {
+  background-color: #e5e7eb;
+  padding: 70px 150px 70px 150px;
+}
+
+.quote-1, 
+.nametag-1 {
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+}
+
+.quote-1 {
+  justify-content: center;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.nametag-1 {
+  justify-content: flex-end;
+  font-size: 20px;
+  padding-top: 25px;
+  padding-right: 20px;
+  font-weight: bolder;
+}
+
+/* CSS Syntax for section 4 */
+.noti-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 30px 80px 30px 30px;
+  background-color: #3882f6;
+  margin: 50px 200px 50px 200px;
+  border-radius: 10px;
+}
+
+.noti-item1 {
+  color: #e5e7eb;
+  padding: 10px 10px 20px 10px;
+}
+
+#CTA-title {
+  font-weight: bolder;
+}
+
+.subtext-2 {
+  font-size: 18px;
+  padding-top: 5px;
+  font-weight: lighter;
+}
+
+#button-2{
+  margin-top: 15px;
+  padding: 15px;
+  border: none;
+  width: 150px;
+  background-color: #3882f6;
+  border: #f9faf8 solid 2px;
+  border-radius: 5px;
+  color: #f9faf8;
+  font-size: 15px;
+}
+
+/* Footer section of the page */
+.footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  align-items: center;
+  padding: 20px;
 }
