@@ -11,3 +11,9 @@ Update - figured out the what the issue was. All I needed to do was insert 'bord
 Section 2, complete:
 
 Important Note(s) - today's task reaffirmed the importance of being intentional with html syntax placement. This determines how the CSS does its magic.
+
+Section 3 & 4, complete:
+
+Important Note(s) - nothing new today. Today's session only reinforced a lot of what I have outlined already. 
+
+Done with the landing page! Looks pretty good - all html and clean CSS Code.
